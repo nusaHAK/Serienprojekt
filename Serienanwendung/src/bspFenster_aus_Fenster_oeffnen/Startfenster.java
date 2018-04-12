@@ -16,6 +16,7 @@ import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 
+import ModernFamily.ModernFamily;
 import the100.The100;
 import twoandahalfman.Twoandahalfman;
 import dexter.Dexter;
@@ -31,7 +32,7 @@ public class Startfenster extends JFrame {
 	JButton btn_anzeigen;
 	
 	DefaultListModel<String> listenModell;
-	String[] serien = {"Two and a half man", "The 100", "Dexter"};
+	String[] serien = {"Two and a half man", "The 100", "Dexter", "Modern Family"};
 	
 	public Startfenster(){
 			setTitle("Serienübersicht");
@@ -63,11 +64,14 @@ public class Startfenster extends JFrame {
 						if (lst_serien.getSelectedValue().equals("The 100")){
 							new The100();
 						}
-						else if (lst_serien.getSelectedValue().equals("Two and a half man")){
+						else if (lst_serien.getSelectedValue().equals("Two and a half")){
 							new Twoandahalfman();
 						}
 						else if (lst_serien.getSelectedValue().equals("Dexter")){
 							new Dexter();
+						}
+						else if (lst_serien.getSelectedValue().equals("ModernFamily")) {
+							new ModernFamily();
 						}
 					}				    
 				}
