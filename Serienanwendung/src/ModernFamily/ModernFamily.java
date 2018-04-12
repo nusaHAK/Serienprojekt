@@ -58,7 +58,7 @@ public class ModernFamily {
 		frame.getContentPane().add(lblHandlung);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(ModernFamily.class.getResource("/images/geilslogo.PNG")));
+		label.setIcon(new ImageIcon(ModernFamily.class.getResource("geilslogo.PNG")));
 		label.setBounds(20, 75, 423, 56);
 		frame.getContentPane().add(label);
 		
