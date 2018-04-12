@@ -32,7 +32,7 @@ public class Startfenster extends JFrame {
 	JButton btn_anzeigen;
 	
 	DefaultListModel<String> listenModell;
-	String[] serien = {"Two and a half man", "The 100", "Dexter", "Modern Family"};
+	String[] serien = {"Two and a half man", "The 100", "Dexter", "ModernFamily"};
 	
 	public Startfenster(){
 			setTitle("Serienübersicht");
